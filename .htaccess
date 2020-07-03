@@ -1,4 +1,4 @@
-AuthType Basic
-AuthName "Input your ID and Password."
-AuthUserFile .htpasswd
+AuthUserFile "https://github.com/4d-akamine/test/.htpasswd"
+AuthName "Enter password"
+AuthType BASIC
 require valid-user
